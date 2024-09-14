@@ -1,0 +1,37 @@
+#ptop {
+  position: absolute;
+  top: 85%;
+  left: 27%;
+  font-weight: bold;
+  color: rgb(255, 40, 40);
+  font-family: "Samsung Sharp Sans", sans-serif;
+}
+.shopbutton1 {
+  position: absolute;
+  top: 97%;
+  left: 33%;
+  font-weight: bold;
+  padding: 10px 10px 15px 15px;
+  border-radius: 10px;
+}
+.shopbutton1:hover {
+  background-color: rgb(255, 58, 189);
+}
+#dress1:hover {
+  content: url(/fashion/Gap/images/b/1b.avif);
+}
+#dress2:hover {
+  content: url(/fashion/Gap/images/b/2b.avif);
+}
+#dress3:hover {
+  content: url(/fashion/Gap/images/b/3b.avif);
+}
+#dress4:hover {
+  content: url(/fashion/Gap/images/b/4b.avif);
+}
+#dress5:hover {
+  content: url(/fashion/Gap/images/b/5b.avif);
+}
+#dress6:hover {
+  content: url(/fashion/Gap/images/b/6b.avif);
+}

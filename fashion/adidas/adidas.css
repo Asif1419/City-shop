@@ -1,0 +1,101 @@
+@import url("https://fonts.cdnfonts.com/css/samsung-sharp-sans");
+
+#f50 {
+  position: absolute;
+  top: 85%;
+  left: 27%;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-family: "Samsung Sharp Sans", sans-serif;
+}
+.shopbutton {
+  position: absolute;
+  top: 97%;
+  left: 33%;
+  font-weight: bold;
+  padding: 10px 10px 15px 15px;
+  border-radius: 10px;
+}
+.shopbutton:hover {
+  background-color: aqua;
+}
+.hero_section img:hover {
+  border: solid white;
+  border-radius: 10px;
+}
+.heading {
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-size: x-large;
+  margin-top: 100px;
+}
+.product_cards img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 35px;
+  justify-content: flex-start;
+  margin: 100px auto;
+}
+.product_info button {
+  flex: 1;
+  width: 100%;
+  border: none;
+  color: black;
+  padding: 5px 0;
+  background-color: brown;
+  margin-top: 8px;
+  font-weight: 600px;
+}
+.product_info h4 {
+  margin-left: 20px;
+  font-size: 30px;
+}
+.product_info p {
+  margin-left: 20px;
+}
+.product_info {
+  padding: 15px;
+  flex: 1;
+}
+.product_cards {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(194, 22, 22);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow;
+  background-color: white;
+  flex: 1 1 400px;
+  max-width: 700px;
+}
+.product_cards:hover {
+  transform: translatey(-20px);
+  border: 7px solid yellow;
+}
+.product_info button:hover {
+  background-color: red;
+}
+#shoe1:hover {
+  content: url(/fashion/adidas/images/card/b/1b.avif);
+}
+#shoe2:hover {
+  content: url(/fashion/adidas/images/card/b/2b.avif);
+}
+#shoe3:hover {
+  content: url(/fashion/adidas/images/card/b/3b.avif);
+}
+#shoe4:hover {
+  content: url(/fashion/adidas/images/card/b/4b.avif);
+}
+#shoe5:hover {
+  content: url(/fashion/adidas/images/card/b/5b.avif);
+}
+#shoe6:hover {
+  content: url(/fashion/adidas/images/card/b/6b.avif);
+}

@@ -1,0 +1,37 @@
+#lev {
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  font-weight: bold;
+  color: rgba(15, 15, 15, 0.836);
+  font-family: "Samsung Sharp Sans", sans-serif;
+}
+.shopbutton1 {
+  position: absolute;
+  top: 97%;
+  left: 43%;
+  font-weight: bold;
+  padding: 10px 10px 15px 15px;
+  border-radius: 10px;
+}
+.shopbutton1:hover {
+  background-color: rgb(255, 58, 189);
+}
+#dress1:hover {
+  content: url(/fashion/Levis/images/b/1b\ Skinny\ Fit\ Jeans\ 2.webp);
+}
+#dress2:hover {
+  content: url(/fashion/Levis/images/b/2bLevi\'s®\ Flex\ Men\'s\ Jeans.webp);
+}
+#dress3:hover {
+  content: url(/fashion/Levis/images/b/3b\ 510™\ Skinny\ Fit\ Men\'s\ Jeans.webp);
+}
+#dress4:hover {
+  content: url(/fashion/Levis/images/b/4b\ Slim\ Taper\ Levi\'s®\ Flex.webp);
+}
+#dress5:hover {
+  content: url(/fashion/Levis/images/b/5b\ 80s\ Mom\ Women\'s\ Jeans.webp);
+}
+#dress6:hover {
+  content: url(/fashion/Levis/images/b/6b.webp);
+}

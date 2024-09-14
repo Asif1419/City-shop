@@ -1,0 +1,47 @@
+#nike {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-weight: bold;
+  color: rgb(10, 29, 204);
+  font-family: "Samsung Sharp Sans", sans-serif;
+}
+.shopbutton1 {
+  position: absolute;
+  top: 70%;
+  left: 43%;
+  font-weight: bold;
+  padding: 10px 10px 15px 15px;
+  border-radius: 10px;
+}
+.shopbutton1:hover {
+  background-color: rgb(255, 58, 189);
+}
+.hero_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.hero_section img {
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+}
+#dress1:hover {
+  content: url(/fashion/Nike/images/b/1b\ Luka\ 3\ PF\ \'Motorsport\'.png);
+}
+#dress2:hover {
+  content: url(/fashion/Nike/images/b/2b.jfif);
+}
+#dress3:hover {
+  content: url(/fashion/Nike/images/b/3b\ Nike\ Pegasus\ EasyOn\ Electric.png);
+}
+#dress4:hover {
+  content: url(/fashion/Nike/images/b/4b\ Nike\ Pegasus\ Trail\ 5.png);
+}
+#dress5:hover {
+  content: url(/fashion/Nike/images/b/5b\ Nike\ Invincible\ 3.png);
+}
+#dress6:hover {
+  content: url(/fashion/Nike/images/b/6b\ Nike\ Downshifter\ 13.jfif);
+}
